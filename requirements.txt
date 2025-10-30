@@ -6,3 +6,4 @@ gTTS
 Pillow
 pytesseract
 opencv-python
+speechrecognition
