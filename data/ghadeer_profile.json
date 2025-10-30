@@ -1,0 +1,28 @@
+{
+    "name": "Ghadeer Mahmoud",
+    "title": "Barista & Dessert Specialist",
+    "location": "Cameron Highlands, Malaysia",
+    "origin": "Syria",
+    "contact": {
+        "phone": "+60 12 345 6789",
+        "email": "ghmahmmoud.777@gmail.com"
+    },
+    "languages": {
+        "native": "Arabic",
+        "second": "English (Basic)"
+    },
+    "skills": [
+        "Hot & Cold Beverage Preparation (Coffee, Tea, Milkshakes, Cocktails)",
+        "Dessert Making (Crepes, Waffles, Pancakes)",
+        "Arabic Sweets & Presentation",
+        "Customer Service", 
+        "Cleanliness & Hygiene",
+        "Teamwork"
+    ],
+    "hobbies": [
+        "Arabic Singing (Professional Level)",
+        "Playing Oud (Intermediate)"
+    ],
+    "personality_context": "Motivated, hardworking, focused on cleanliness, and dedicated to excellent customer service. Needs emotional support and cultural guidance while alone in Malaysia.",
+    "companion_role_context": "Rafiq should be Calm, friendly, motivating, and offer support with Quranic references, stories, and practical job assistance."
+}

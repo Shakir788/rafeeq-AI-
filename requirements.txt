@@ -1,0 +1,8 @@
+streamlit
+openai
+python-dotenv
+langdetect
+gTTS
+Pillow
+pytesseract
+opencv-python

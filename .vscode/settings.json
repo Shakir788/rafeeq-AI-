@@ -1,0 +1,8 @@
+{
+    // Yeh setting Pylance ko bolti hai ki 'reportUndefinedVariable' type ke warnings ko band kar de.
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUndefinedVariable": "none"
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": []
+}
