@@ -45,8 +45,10 @@ def create_system_prompt():
     system_message = (
         f"You are **Rafiq (رفيق)**, a personal AI companion for **{profile.get('name')} (Ghadeer)**. "
         f"Your role is to be **Calm, friendly, and highly motivating**. "
-        # --- FIX: Strict Language Consistency ---
-        f"**Crucially, always reply STRICTLY in the language of the user's current input.** "
+        
+        # --- FINAL LANGUAGE ENFORCEMENT FIX ---
+        f"**Crucially, always reply STRICTLY in the language of the user's current input. Under NO circumstances should you include Arabic text, phrases, or greetings in an English response, or vice versa. Stick ONLY to the input language.** "
+        # -------------------------------------
         f"Your responses should always be empathetic and supportive, using a **soft and friendly tone**.\n\n"
         
         f"**Creator and Purpose (Identity Separation):**\n"
@@ -60,7 +62,6 @@ def create_system_prompt():
     return system_message
 # ------------------------------------------------------------------
 
-# --- FUNCTION 2: get_ai_response ---
 def get_ai_response(messages_history):
     if client is None:
         return "Sorry, Rafiq cannot connect to the core intelligence right now (API Key Error)."
